@@ -13,6 +13,12 @@
     backface-visibility: hidden;
 }
 
+.flip-clock-wrapper {
+    display: flex;
+    justify-content: flex;
+    flex-wrap: wrap;
+}
+
 .flip-clock-wrapper a {
   cursor: pointer;
   text-decoration: none;
@@ -48,6 +54,8 @@
 .flip-clock-meridium a { color: #313333; }
 
 .flip-clock-wrapper {
+  display: flex;
+  justify-content: center;
   text-align: center;
   position: relative;
   width: 100%;
